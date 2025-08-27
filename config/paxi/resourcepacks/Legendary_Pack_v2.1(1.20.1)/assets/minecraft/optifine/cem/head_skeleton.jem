@@ -1,0 +1,26 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-3.75, 8, -3.5, 7, 1, 7], "textureOffset": [27, 33], "sizeAdd": 0.2},
+				{"coordinates": [-4.5, 1, -4.5, 9, 7, 9], "textureOffset": [0, 32], "sizeAdd": 0.25}
+			],
+			"submodels": [
+				{
+					"id": "bone",
+					"invertAxis": "xy",
+					"translate": [0, 1, 0.5],
+					"rotate": [-17.5, 0, 0],
+					"boxes": [
+						{"coordinates": [-3.5, -1.72686, -4.15035, 7, 5, 4], "textureOffset": [38, 45], "sizeAdd": 0.25}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,88 @@
+{
+	"textureSize": [32, 32],
+	"models": [
+		{
+			"part": "body_front",
+			"id": "body_front",
+			"invertAxis": "xy",
+			"translate": [0, -6, 4],
+			"boxes": [
+				{"coordinates": [-1.5, 3.5, -4, 3, 5, 8], "textureOffset": [0, 0]},
+				{"coordinates": [0, 8.5, -1, 0, 2, 2], "textureOffset": [4, 2]},
+				{"coordinates": [0, 8.5, 0, 0, 2, 4], "textureOffset": [0, 2]}
+			],
+			"submodels": [
+				{
+					"id": "right_fin",
+					"invertAxis": "xy",
+					"translate": [1.5, 4.5, -3],
+					"rotate": [90, 0, -45],
+					"boxes": [
+						{"coordinates": [0, -1, 0, 3, 3, 0], "textureOffset": [0, 29]}
+					]
+				},
+				{
+					"id": "left_fin",
+					"invertAxis": "xy",
+					"translate": [-1.5, 4.5, -3],
+					"rotate": [90, 0, 45],
+					"boxes": [
+						{"coordinates": [-3, -1, 0, 3, 3, 0], "textureOffset": [0, 26]}
+					]
+				}
+			]
+		},
+		{
+			"part": "body_back",
+			"id": "body_back",
+			"invertAxis": "xy",
+			"translate": [0, -6, -4],
+			"boxes": [
+				{"coordinates": [-1.5, 4.5, 4, 3, 4, 6], "textureOffset": [2, 15]},
+				{"coordinates": [0, 4.5, 10, 0, 5, 6], "textureOffset": [20, 10]}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -6, 4],
+			"boxes": [
+				{"coordinates": [-1, 4.5, -7, 2, 4, 3], "textureOffset": [22, 0]},
+				{"coordinates": [-1.5, 6.5, -6, 1, 1, 1], "textureOffset": [17, 5]},
+				{"coordinates": [-1, 6.5, -7.5, 2, 1, 1], "textureOffset": [25, 12], "sizeAdd": 0.1},
+				{"coordinates": [0.5, 6.5, -6, 1, 1, 1], "textureOffset": [17, 5]}
+			]
+		},
+		{
+			"part": "fin_back_1",
+			"id": "fin_back_1",
+			"invertAxis": "xy",
+			"translate": [0, -10.5, 2]
+		},
+		{
+			"part": "fin_back_2",
+			"id": "fin_back_2",
+			"invertAxis": "xy",
+			"translate": [0, -10.5, 0]
+		},
+		{
+			"part": "tail",
+			"id": "tail",
+			"invertAxis": "xy",
+			"translate": [0, -7, -10]
+		},
+		{
+			"part": "fin_left",
+			"id": "fin_left",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "fin_right",
+			"id": "fin_right",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

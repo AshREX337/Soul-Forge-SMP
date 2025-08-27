@@ -1,0 +1,53 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "block/fern_2",
+		"texture": "block/fern_2"
+	},
+	"elements": [
+		{
+			"name": "PlaneY1",
+			"from": [0, 5.65671, 8.1565],
+			"to": [16, 5.65771, 24.1565],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 5.65721, 16.1565]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#texture"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "PlaneY1",
+			"from": [0, 1.999, -9.5],
+			"to": [16, 2, 6.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "x", "origin": [0, 2, 6.5]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#texture"},
+				"down": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "PlaneY3",
+			"from": [8.5, 3, 0],
+			"to": [24.5, 3.001, 16],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.5, 3, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [16, 0, 0, 16], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "PlaneY3",
+			"from": [-8.5, 2.999, 0],
+			"to": [7.5, 3, 16],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [7.5, 3, 0]},
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#texture"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#texture"}
+			}
+		}
+	]
+}
