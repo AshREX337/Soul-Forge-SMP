@@ -1,0 +1,15 @@
+
+["World Border Settings"]
+	#Initial size of the world border in blocks
+	#Range: 1 ~ 60000000
+	initialBorderSize = 2000
+	#Border expansion in blocks for a TASK advancement
+	#Range: 0 ~ 10000
+	taskReward = 10
+	#Border expansion in blocks for a GOAL advancement
+	#Range: 0 ~ 10000
+	goalReward = 50
+	#Border expansion in blocks for a CHALLENGE advancement
+	#Range: 0 ~ 10000
+	challengeReward = 100
+
